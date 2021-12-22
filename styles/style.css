@@ -1,14 +1,16 @@
 
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
 }
 
 
 /*top header*/
 
-.header {
+.header{
     background-color: #1F2937;
     padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 
@@ -57,6 +59,7 @@
 .header .bottom p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
 .header .bottom .image {
@@ -68,7 +71,7 @@
     margin-left: 100px;
 }
 
-.header .bottom button {
+.header .bottom button, .call-to-action button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: 2px;
@@ -76,7 +79,7 @@
     padding: 8px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 10px;
+    border-radius: px;
     font-weight: bold;
 }
 
@@ -85,6 +88,7 @@
 
 .content {
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .content .information h2{
@@ -110,6 +114,70 @@
     
 }
 
+/*quote*/
+
 .quote {
+    /*padding-top: 100px;
+    padding-bottom: 100px;*/
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    font-weight: lighter;
+    margin-bottom: 110px;
+}
+
+.quote .text {
+    flex: 1;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.quote .text #author {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+    text-align: right;
+}
+
+
+/*call-to-action*/
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    margin-bottom: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.call-to-action .text {
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    padding: 20px;
+}
+
+.call-to-action .text div {
+    margin-left: 10%;
+}
+
+.call-to-action button {
+    border: 2px solid #F9FAF8;
     
+}
+
+/*footer*/
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    text-align: center;
 }
